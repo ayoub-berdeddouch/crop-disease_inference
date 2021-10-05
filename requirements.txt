@@ -1,6 +1,6 @@
 streamlit
 pandas
 numpy
-keras
+tensorflow==2.4.0 
 Pillow
 opencv-python
