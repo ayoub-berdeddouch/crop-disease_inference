@@ -1,6 +1,6 @@
 streamlit
 pandas
 numpy
-tensorflow==2.4.0 
+tensorflow 
 Pillow
 opencv-python
