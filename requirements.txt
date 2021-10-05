@@ -1,7 +1,6 @@
 streamlit
 pandas
 numpy
-matplotlib
 tensorflow
 Pillow
 opencv-python
