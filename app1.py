@@ -3,7 +3,8 @@ import streamlit as st
 import io
 import numpy as np
 from PIL import Image 
-import tensorflow as tf
+#import tensorflow as tf
+from keras.models import load_model
 
 
 
@@ -29,7 +30,8 @@ def app():
 
 
     # Loading Model
-    model = tf.keras.models.load_model("model.h5")
+    #model = tf.keras.models.load_model("model.h5")
+    model = load_model("model.h5")
 
     # Upload the image
     uploaded_file = st.file_uploader("Choose a Image file", type=['jpg','jpeg','png','webp', 'jfif'])
