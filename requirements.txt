@@ -2,7 +2,7 @@ streamlit
 pandas
 numpy
 matplotlib
-keras
+tensorflow
 PIL
 os
 cv2
