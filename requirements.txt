@@ -4,6 +4,4 @@ numpy
 matplotlib
 tensorflow
 Pillow
-os
-time
 cv2
