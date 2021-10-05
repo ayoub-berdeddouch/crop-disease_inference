@@ -1,0 +1,39 @@
+class_index,class_name,height,width,scale by
+0,Apple___Apple_scab,224,224,1
+1,Apple___Black_rot,224,224,1
+2,Apple___Cedar_apple_rust,224,224,1
+3,Apple___healthy,224,224,1
+4,Blueberry___healthy,224,224,1
+5,Cherry_(including_sour)___Powdery_mildew,224,224,1
+6,Cherry_(including_sour)___healthy,224,224,1
+7,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,224,224,1
+8,Corn_(maize)___Common_rust_,224,224,1
+9,Corn_(maize)___Northern_Leaf_Blight,224,224,1
+10,Corn_(maize)___healthy,224,224,1
+11,Grape___Black_rot,224,224,1
+12,Grape___Esca_(Black_Measles),224,224,1
+13,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),224,224,1
+14,Grape___healthy,224,224,1
+15,Orange___Haunglongbing_(Citrus_greening),224,224,1
+16,Peach___Bacterial_spot,224,224,1
+17,Peach___healthy,224,224,1
+"18,""Pepper,_bell___Bacterial_spot"",224,224,1"
+"19,""Pepper,_bell___healthy"",224,224,1"
+20,Potato___Early_blight,224,224,1
+21,Potato___Late_blight,224,224,1
+22,Potato___healthy,224,224,1
+23,Raspberry___healthy,224,224,1
+24,Soybean___healthy,224,224,1
+25,Squash___Powdery_mildew,224,224,1
+26,Strawberry___Leaf_scorch,224,224,1
+27,Strawberry___healthy,224,224,1
+28,Tomato___Bacterial_spot,224,224,1
+29,Tomato___Early_blight,224,224,1
+30,Tomato___Late_blight,224,224,1
+31,Tomato___Leaf_Mold,224,224,1
+32,Tomato___Septoria_leaf_spot,224,224,1
+33,Tomato___Spider_mites Two-spotted_spider_mite,224,224,1
+34,Tomato___Target_Spot,224,224,1
+35,Tomato___Tomato_Yellow_Leaf_Curl_Virus,224,224,1
+36,Tomato___Tomato_mosaic_virus,224,224,1
+37,Tomato___healthy,224,224,1
