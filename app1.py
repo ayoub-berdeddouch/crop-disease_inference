@@ -30,11 +30,7 @@ def app():
     # Upload the image
     uploaded_file = st.file_uploader("Choose a Image file", type=['jpg','jpeg','png','webp', 'jfif'])
 
-    #st.write("Model is being loaded- this will take about 10 seconds")
-
     df = pd.read_csv("class_dict.csv")
-
-    #predictions_map = {0:"is healthy", 1:"has Multiple Diseases", 2:"has Rust", 3:"has Scab"}
 
     class_names = [
                 df.class_name[0],
@@ -111,16 +107,3 @@ def app():
                 st.error(msg)
 
             
-        
-        
-        # # result_text = f"The plant leaf {predictions_map[predictions]} with {int(predictions_arr[0][predictions]*100)}% probability"
-        
-        # ####
-        # result_text = f"The plant leaf belong to class: {class_map[predictions]} with a probability of {int(predictions_arr[0][predictions]*100)}%"
-        # #####
-        # test = {3,4,10,14,17,19,22,23,24,27,37}
-        # if predictions in test:
-        #     st.success(result_text)
-        # else:
-        #     st.error(result_text)
-
