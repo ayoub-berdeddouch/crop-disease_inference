@@ -3,6 +3,7 @@ pandas
 numpy
 matplotlib
 tensorflow
-PIL
+Pillow
 os
+time
 cv2
