@@ -4,4 +4,4 @@ numpy
 matplotlib
 tensorflow
 Pillow
-cv2
+opencv-python
