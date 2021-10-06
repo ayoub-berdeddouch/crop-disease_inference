@@ -1,24 +1,20 @@
 # Importing Libraries
 import streamlit as st
-import numpy as np
-from PIL import Image 
-import tensorflow as tf
+#import numpy as np
+#from PIL import Image 
+#import tensorflow as tf
 # from keras.models import load_model
-import os
-import pandas as pd
-import time
-import cv2
+# import os
+# import pandas as pd
+#import time
+#import cv2
 
 import app1
 import app2
 
 
-#image_rootpath='Images/'
 
 PAGES={"Crop Disease Prediction":app1,"About Project":app2}
-
-
-# In[49]:
 
 
 st.sidebar.title("Choose your option to navigate")
