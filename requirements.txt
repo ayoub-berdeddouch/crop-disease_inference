@@ -4,5 +4,3 @@ numpy
 tensorflow 
 Pillow
 opencv-python
-scikit-image
-lime
