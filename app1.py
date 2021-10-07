@@ -8,8 +8,6 @@ import numpy as np
 import pandas as pd
 import time
 import cv2
-from lime import lime_image
-from skimage.segmentation import mark_boundaries
 
 def app():
     # Title and Description
@@ -107,21 +105,7 @@ def app():
                 msg = f'Your crop-leaf is not healthy and predicted class is {pred_class_name} with probability of {int(probs[0][pred_class]*100)}%'
                 st.error(msg)
                 
-            st.subheader("\nPlotting your input image with boundries for enhanced visualization")
-            explainer = lime_image.LimeImageExplainer()
-            explanation = explainer.explain_instance(test_image_r[0], model.predict, top_labels=5, hide_color=0, num_samples=500)
-            st.write("\nProcessing the image for boundries...")
 
-            progress = st.progress(0)
-            progress_text = st.empty()
-
-            for i in range(101):
-                time.sleep(0.1)
-                progress.progress(i)
-                progress_text.text(f"Progress:{i}%")
-
-            temp, mask = explanation.get_image_and_mask(explanation.top_labels[0], positive_only=True, num_features=5, hide_rest=False)
-            st.image(mark_boundaries(temp, mask),caption="Your crop with marked boundries")
 
             st.write("👋 Thank you for using our App👋")
             
